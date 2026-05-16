@@ -1,0 +1,26 @@
+# --- PYTHON ---
+__pycache__/
+*.pyc
+.venv/
+venv/
+.env
+
+# --- FLUTTER & ANDROID ---
+studyfocus_mobile/.dart_tool/
+studyfocus_mobile/.flutter-plugins
+studyfocus_mobile/.flutter-plugins-dependencies
+studyfocus_mobile/.packages
+studyfocus_mobile/build/
+studyfocus_mobile/android/.gradle/
+studyfocus_mobile/android/local.properties
+studyfocus_mobile/android/app/###.apk
+
+# --- IDE & SYSTEM ---
+.vscode/
+.idea/
+*.suo
+*.ntvs*
+*.njsproj
+*.sln
+*.swp
+Thumbs.db
