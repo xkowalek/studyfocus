@@ -1,7 +1,3 @@
-"""
-StudyFocus — szkielet aplikacji: GUI (CustomTkinter), blokada pełnoekranowa,
-WebSocket (LOCKED/UNLOCKED), Zeroconf studyfocus.local, podgląd PDF.
-"""
 
 from __future__ import annotations
 
@@ -72,6 +68,10 @@ class StudyFocusApp(ctk.CTk):
     def __init__(self) -> None:
         super().__init__()
         self.title("StudyFocus")
+        try:
+            self.iconbitmap("ikona.ico")
+        except Exception:
+            pass
         self.geometry("960x700")
         self.minsize(800, 560)
 
